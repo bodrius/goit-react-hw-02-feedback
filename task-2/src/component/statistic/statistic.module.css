@@ -1,0 +1,29 @@
+.container{
+    padding-top: 30px;
+    width: 500px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    text-align: center;
+}
+button{
+   
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 35px;
+    background-color: rgb(155, 69, 69);
+    border-radius: 4px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 20px;
+}
+h3{
+    font-size: 30px;
+}
+
