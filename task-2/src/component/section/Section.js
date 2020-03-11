@@ -1,9 +1,8 @@
 import React from "react";
-
+import PropTypes from 'prop-types';
 //Создай компонент <Section title="">, который рендерит секцию с заголовком и детей (children).
 
 const Section = ({ title, children }) => {
-  console.log(title);
   return (
     <section>
       <h2>{title}</h2>
@@ -11,5 +10,10 @@ const Section = ({ title, children }) => {
     </section>
   );
 };
+
+Section.propTypes ={
+  title: PropTypes.string,
+  children: PropTypes.object
+}
 
 export default Section;

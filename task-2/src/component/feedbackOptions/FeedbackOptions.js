@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 const FeedbackOptions = ({ feedbackOptions }) => {
   return (
@@ -15,5 +16,10 @@ const FeedbackOptions = ({ feedbackOptions }) => {
     </>
   );
 };
+
+FeedbackOptions.propTypes ={
+  feedbackOptions: PropTypes.func 
+}
+
 
 export default FeedbackOptions;
